@@ -3,12 +3,14 @@ package com.petersonnormil.demo.student;
 import java.time.LocalDate;
 
 public class Student {
+	//private fields for student
 	private Long id;
 	private String name; 
 	private String email;
 	private Integer age;
 	private LocalDate dob;
-	
+	//im in 36:13
+	//3 main constructors for student
 	public Student(Long id, String name, String email, Integer age, LocalDate dob) {
 		super();
 		this.id = id;
